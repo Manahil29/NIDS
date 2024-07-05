@@ -1,0 +1,67 @@
+/* Style inputs with type="text", select elements */
+input[type=text], select {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stay in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  .btn-primary {
+    background: linear-gradient(to right, #4CAF50, #45a049); /* Gradient background */
+    color: white; /* White text color */
+    padding: 14px 28px; /* Larger padding for a bigger button */
+    border: none; /* No border for a clean look */
+    border-radius: 5px; /* More rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 18px; /* Larger font size */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Consistent font style */
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+    display: inline-block; /* Ensures button fits content */
+    text-align: center; /* Center the text */
+  }
+  
+  /* Hover effect for submit button */
+  .btn-primary:hover {
+    background: linear-gradient(to right, #45a049, #408140); /* Darker gradient on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Slightly larger shadow */
+    transform: scale(1.05); /* Slightly increase size */
+  }
+  
+  /* Active effect for submit button */
+  .btn-primary:active {
+    background: linear-gradient(to right, #408140, #3d7d3d); /* Darkest gradient on click */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Reduced shadow */
+    transform: scale(0.98); /* Slightly reduce size */
+  }
+  
+  /* Focus effect for submit button */
+  .btn-primary:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Blue shadow */
+  }
+  
+  /* Style the heading */
+  h1 {
+    font-weight: bold;
+    text-emphasis-color: grey; /* Bold font */
+  }
+  
+  /* Style smaller inputs */
+  .smaller-input {
+    width: 50%; /* Medium width */
+  }
+  
+  /* Background image related to network intrusion detection */
+  body {
+    background-color: #515050; /* Light gray background color */
+    background-image: url('https://www.ecpi.edu/sites/default/files/CYBER_19.PNG'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* No repeat */
+  }
+  
